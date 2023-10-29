@@ -1,0 +1,29 @@
+= TinyGFX
+The minimal graphics engine
+
+== Description
+
+TinyGFX is a small experimental graphics engine to try out the low-level features of
+modern graphics APIs. Here are some highlights of current functionality
+
+* WIP
+
+== Development
+
+The battle tested cmake commands work for building the project:
+
+[source,bash]
+----
+$ mkdir build
+$ cd build
+$ cmake -DMAKE_BUILD_TYPE=Release ..
+$ make -j<cores>
+----
+
+However, a convenience Makefile has been shipped in the root that will create a debug
+build. This can be run as follows:
+
+[source,bash]
+----
+$ make -j<cores> all
+----
